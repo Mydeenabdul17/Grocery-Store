@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+div{
+    margin-top: 60px;
+    margin-left: 550px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 5px rgb(151, 149, 149);
+}
+table{
+    padding-top: 10px;
+}
+
+input{
+    border-style: inherit;
+    padding-left: 10px;
+    margin-left: 10px;
+} 
+input:hover{
+    box-shadow: 4px 4px 8px 4px rgb(151, 149, 149);
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+td{
+    padding-top: 50px;
+}
+

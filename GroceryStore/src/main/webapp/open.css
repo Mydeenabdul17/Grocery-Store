@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+div{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 220px;
+    left: 650px;
+    box-shadow: 5px 5px 30px 5px rgb(151, 149, 149);
+    border-radius: 5px;
+}
+.button1{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.button2{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+
+button:hover{
+    box-shadow: 4px 4px 8px 4px rgb(151, 149, 149);
+}
