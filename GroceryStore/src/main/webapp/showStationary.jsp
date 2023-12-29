@@ -28,6 +28,7 @@ List<Stationary> stationaries = (List<Stationary>) request.getAttribute("list");
 <td>Unit</td>
 </tr>
 <%
+if(stationaries!=null){
 for(Stationary s:stationaries){
 %>
 <tr>
@@ -35,6 +36,10 @@ for(Stationary s:stationaries){
 <td><%=s.getItem() %></td>
 <td class="col1"><%=s.getCount() %></td>
 <td><%=s.getUnit() %></td>
+</tr>
+<%} }else{%>
+<tr>
+<td>No Products to Show</td>
 </tr>
 <%} %>
 </table>

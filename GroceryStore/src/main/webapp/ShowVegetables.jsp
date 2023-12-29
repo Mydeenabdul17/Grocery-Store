@@ -28,6 +28,7 @@ List<Vegetables> vegetables = (List<Vegetables>) request.getAttribute("list");
 <td>Unit</td>
 </tr>
 <%
+if(vegetables!=null){
 for(Vegetables v:vegetables){
 %>
 <tr>
@@ -35,6 +36,10 @@ for(Vegetables v:vegetables){
 <td><%=v.getItem() %></td>
 <td class="col1"><%=v.getCount() %></td>
 <td><%=v.getUnit() %></td>
+</tr>
+<%}} else{%>
+<tr>
+<td>No Products to Show</td>
 </tr>
 <%} %>
 </table>
